@@ -10,13 +10,13 @@ namespace ArvatoTestAssignment
         [FindsBy(How = How.Id, Using = "menu-item-57")]
         public IWebElement ITDevelopmentCentreBtn { get; set; }
 
-        [FindsBy(How = How.XPath, Using = "/html/body/div[2]/div[2]/div/a/button")]
+        [FindsBy(How = How.CssSelector, Using = "a > button")]
         public IWebElement OpenPositionsBtn { get; set; }
 
-        [FindsBy(How = How.XPath, Using = "/html/body/div[2]/div[2]")]
+        [FindsBy(How = How.CssSelector, Using = "div.open-positions-content")]
         public IWebElement WorkAtArvatoText { get; set; }
 
-        [FindsBy(How = How.XPath, Using = "/html/body/div[2]/div[4]/div[1]/div[2]/div[2]/div/div/div[2]/a/div/h4")]
+        [FindsBy(How = How.LinkText, Using = "QA Engineer")]
         public IWebElement QAEngineerPosBtn { get; set; }
 
     }

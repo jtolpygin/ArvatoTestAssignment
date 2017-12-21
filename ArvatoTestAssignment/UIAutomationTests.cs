@@ -22,6 +22,7 @@ namespace ArvatoTestAssignment
             driver.Navigate().GoToUrl("http://arvato.ee/en/frontpage/");
             driver.Manage().Window.Maximize();
             Assert.AreEqual("Arvato Services Estonia", driver.Title);
+            
         }
         [Test]
         public void UIAutomationTest1()
