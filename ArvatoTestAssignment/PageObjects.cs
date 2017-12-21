@@ -12,11 +12,11 @@ namespace ArvatoTestAssignment
         [FindsBy(How = How.XPath, Using = "/html/body/div[2]/div[2]/div/a/button")]
         public IWebElement OpenPositionsBtn { get; set; }
 
-        [FindsBy(How = How.XPath, Using = "/html/body/div[2]/div[4]/div[1]/div[2]/div[1]/h3[2]")]
+        [FindsBy(How = How.XPath, Using = "/html/body/div[2]/div[2]")]
         public IWebElement WorkAtArvatoText { get; set; }
 
-        [FindsBy(How = How.XPath, Using = "/html/body/div[2]/div[4]/div[2]/div[1]/h4")]
-        public IWebElement WeOfferYouText { get; set; }
+        [FindsBy(How = How.XPath, Using = "/html/body/div[2]/div[4]/div[1]/div[2]/div[2]/div/div/div[2]/a/div/h4")]
+        public IWebElement QAEngineerPosBtn { get; set; }
 
     }
 }

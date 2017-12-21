@@ -29,7 +29,7 @@ namespace ArvatoTestAssignment
             Thread.Sleep(1000);
             PageObjects.OpenPositionsBtn.Click();
             Thread.Sleep(1000);
-
+            PageObjects.QAEngineerPosBtn.Click();
             if (PageObjects.WorkAtArvatoText.Displayed)
             {
                 Console.WriteLine(PageObjects.WorkAtArvatoText.Text.ToString());
