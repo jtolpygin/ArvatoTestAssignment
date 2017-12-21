@@ -6,6 +6,7 @@ namespace ArvatoTestAssignment
 {
     class PageObjects
     {
+        //List of WebElements.
         [FindsBy(How = How.Id, Using = "menu-item-57")]
         public IWebElement ITDevelopmentCentreBtn { get; set; }
 
